@@ -22,7 +22,7 @@ public class MainAdapter extends SectionedRecyclerViewAdapter<MainAdapter.MainVH
     public int getItemCount(int section) {
         if (section % 2 == 0)
             return 4; // even sections get 4 items
-        return 8; // odd get 8
+        return 50; // odd get 8
     }
 
     @Override
